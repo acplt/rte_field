@@ -46,7 +46,7 @@
 	Includes
 ***********************************************************************/
 
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 enum kbuslib_MBState{
 	MB_idle,

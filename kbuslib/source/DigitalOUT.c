@@ -22,7 +22,7 @@
 
 
 #include "kbuslib.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 
 OV_DLLFNCEXPORT void kbuslib_DigitalOUT_startup(

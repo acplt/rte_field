@@ -22,11 +22,11 @@
 
 
 #include "modbusTcpLib.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_memstack.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_memstack.h"
+#include "ov_result.h"
 #include "ksbase_helper.h"
-#include "libov/ov_logfile.h"
+#include "ov_logfile.h"
 
 OV_DLLFNCEXPORT void modbusTcpLib_RequestDispatcher_typemethod (
 	OV_INSTPTR_ksbase_ComTask	this

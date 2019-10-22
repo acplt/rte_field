@@ -22,8 +22,8 @@
 
 
 #include "kbuslib.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
+#include "ov_macros.h"
+#include "ov_path.h"
 #include "kbusl.h"
 
 #define timespanToDouble(span)	\

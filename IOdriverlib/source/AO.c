@@ -22,7 +22,7 @@
 
 
 #include "IOdriverlib.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 /**
  * Convey Sp to Out or SimOut, respectively, controlled by the state of SimOn

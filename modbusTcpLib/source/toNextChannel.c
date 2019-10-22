@@ -22,9 +22,9 @@
 
 
 #include "modbusTcpLib.h"
-#include "libov/ov_association.h"
+#include "ov_association.h"
 
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 OV_IMPL_LINK(modbusTcpLib_toNextChannel)
 OV_IMPL_UNLINK(modbusTcpLib_toNextChannel)

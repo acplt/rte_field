@@ -22,10 +22,10 @@
 
 
 #include "modbusTcpLib.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "ksbase_helper.h"
-#include "libov/ov_memstack.h"
-#include "libov/ov_result.h"
+#include "ov_memstack.h"
+#include "ov_result.h"
 
 OV_DLLFNCEXPORT OV_RESULT modbusTcpLib_Slave_host_set(
 		OV_INSTPTR_modbusTcpLib_Slave          pobj,

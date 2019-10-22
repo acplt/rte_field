@@ -22,8 +22,8 @@
 
 #include "kbusl.h"
 #include "wagoFBKlib.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_logfile.h"
+#include "ov_macros.h"
+#include "ov_logfile.h"
 #include <string.h>
 #include "kbusapi.h"
 

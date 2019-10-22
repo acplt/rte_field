@@ -22,7 +22,7 @@
 
 
 #include "kbuslib.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 OV_DLLFNCEXPORT OV_RESULT kbuslib_AnalogOUT_Value_set(OV_INSTPTR_kbuslib_AnalogOUT pobj, const OV_SINGLE value)
 {

@@ -30,8 +30,8 @@
 #include "kbusl.h"
 #include "wagoIPClib.h"
 #include "wagoIPClib_macros.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_logfile.h"
+#include "ov_macros.h"
+#include "ov_logfile.h"
 #include "kbus.h"
 #include "misc.h"
 

@@ -22,8 +22,8 @@
 
 
 #include "modbusTcpLib.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_memstack.h"
+#include "ov_macros.h"
+#include "ov_memstack.h"
 #include "ksbase_helper.h"
 
 
