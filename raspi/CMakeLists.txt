@@ -6,7 +6,7 @@ if(UNIX)
         SET(BUILD_OV_LIBRARY_raspi OFF CACHE BOOL "")
     endif()
 
-    add_ov_library(raspi FALSE)
+    add_ov_library(raspi)
     ov_library_includes(raspi ov fb)
 
     target_link_libraries(raspi -lwiringPi)

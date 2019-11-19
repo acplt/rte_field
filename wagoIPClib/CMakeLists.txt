@@ -1,6 +1,6 @@
 
 if(UNIX AND !CYGWIN AND OV_ARCH_i386)
-    add_ov_library(wagoIPClib FALSE)
+    add_ov_library(wagoIPClib)
     ov_library_includes(wagoIPClib fb kbuslib)
 
     target_link_libraries(wagoIPClib
