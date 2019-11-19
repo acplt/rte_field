@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.13)
 
 project(rte_field C)
 
@@ -20,6 +20,10 @@ add_subdirectory(modbusTcpLib)
 add_subdirectory(raspi)
 
 
-# Export all targets to make build tree importable via find_package(RTEMisc)
- export(EXPORT ${PROJECT_NAME}
-     FILE RTEFieldConfig.cmake)
+# Export all targets to make build tree importable via find_package(RTEfblib)
+# This does only make sense if this is the root project
+get_directory_property(hasParent PARENT_DIRECTORY)
+if(NOT hasParent)
+    export(EXPORT ${PROJECT_NAME}
+        FILE RTEFieldConfig.cmake)
+endif()
