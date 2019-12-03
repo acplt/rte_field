@@ -1,6 +1,8 @@
 
 if(UNIX AND (NOT CYGWIN) AND OV_ARCH_i386)
 
+    set(BUILD_OV_LIBRARY_wagoIPClib OFF CACHE BOOL "")
+
     add_ov_library(wagoIPClib)
     ov_library_includes(wagoIPClib fb kbuslib)
 
