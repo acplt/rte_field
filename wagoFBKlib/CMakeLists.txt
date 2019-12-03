@@ -1,5 +1,6 @@
 
-if(UNIX AND !CYGWIN)
+if(UNIX AND NOT CYGWIN)
+
     add_ov_library(wagoFBKlib)
     ov_library_includes(wagoFBKlib fb kbuslib)
 
