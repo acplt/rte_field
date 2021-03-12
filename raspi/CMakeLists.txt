@@ -9,5 +9,5 @@ if(UNIX)
     add_ov_library(raspi)
     ov_library_includes(raspi ov fb)
 
-    target_link_libraries(raspi -lwiringPi)
+    target_link_libraries(raspi PRIVATE -lwiringPi)
 endif()
